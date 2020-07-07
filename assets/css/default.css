@@ -34,90 +34,90 @@ Table of Content
     1. SETTINGS
 ==================*/
 a:hover {
-  color: #f07f81;
+  color: #009999;
 }
 
 /* 1.1 Preloader  */
 #preloader .loader {
   -webkit-animation: loader 1s linear infinite;
           animation: loader 1s linear infinite;
-  background: rgba(240, 127, 129, 0.8);
+  background: #009999;
 }
 
 @-webkit-keyframes loader {
   0% {
-    background: rgba(240, 127, 129, 0.8);
+    background: #009999;
     -webkit-transform: scale(0);
             transform: scale(0);
   }
   100% {
-    background: rgba(240, 127, 129, 0);
+    background: #009999;
   }
 }
 
 @keyframes loader {
   0% {
-    background: rgba(240, 127, 129, 0.8);
+    background: #009999;
     -webkit-transform: scale(0);
             transform: scale(0);
   }
   100% {
-    background: rgba(240, 127, 129, 0);
+    background: #009999;
   }
 }
 
 section .form-group.form-focused label {
-  color: #f07f81;
+  color: #009999;
 }
 
 /* 1.2 Bootstrap Settings */
 .bg-primary {
-  background-color: #f07f81 !important;
+  background-color: #009999 !important;
 }
 
 .text-primary {
-  color: #f07f81 !important;
+  color: #009999 !important;
 }
 
 blockquote {
-  border-left: 5px solid #f07f81;
+  border-left: 5px solid #009999;
 }
 
 /* 1.3 Buttons  */
 .btn-primary {
   color: #fff;
-  background-color: #f07f81;
-  border: 1px solid #f07f81;
+  background-color: #009999;
+  border: 1px solid #009999;
 }
 
 .btn-primary:hover {
-  background-color: #d36d6f;
-  color: #fff;
-  border-color: #d36d6f;
+  background-color: #fff;
+  color: #009999;
+  border-color: #009999;
 }
 
 .btn-primary.focus, .btn-primary:focus {
   color: #fff;
-  background-color: #f07f81;
-  border-color: #f07f81;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 127, 129, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(240, 127, 129, 0.5);
+  background-color: #009999;
+  border-color: #009999;
+  -webkit-box-shadow: 0 0 0 0.2rem #8bc0c9;
+          box-shadow: 0 0 0 0.2rem #8bc0c9;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  background-color: #d36d6f;
+  background-color: #8bc0c9;
   color: #fff;
-  border-color: #d36d6f;
+  border-color: #8bc0c9;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active {
   -webkit-box-shadow: none;
           box-shadow: none;
-  background-color: #d36d6f;
+  background-color: #8bc0c9;
   color: #fff;
-  border-color: #d36d6f;
+  border-color: #8bc0c9;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
@@ -127,20 +127,20 @@ blockquote {
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  background-color: #d36d6f;
+  background-color: #8bc0c9;
   color: #fff;
-  border-color: #d36d6f;
+  border-color: #8bc0c9;
 }
 
 .btn-outline-primary {
-  border: 1px solid #f07f81;
-  color: #f07f81;
+  border: 1px solid #009999;
+  color: #009999;
   background: transparent;
 }
 
 .btn-outline-primary:hover {
-  background: #f07f81;
-  border-color: #f07f81;
+  background: #009999;
+  border-color: #009999;
   color: #fff;
 }
 
@@ -152,16 +152,16 @@ blockquote {
 .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active {
   border-color: #58201b;
   background-color: #58201b;
-  color: #f07f81;
+  color: #009999;
 }
 
 .btn-outline-primary.focus, .btn-outline-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 127, 129, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(240, 127, 129, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem #009999;
+          box-shadow: 0 0 0 0.2rem #009999;
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #f07f81;
+  color: #009999;
 }
 
 .btn-loading {
@@ -209,31 +209,31 @@ blockquote {
 }
 
 mark {
-  background: rgba(240, 127, 129, 0.8);
+  background: #009999;
 }
 
 /*=================
     2. HELPERS
 ==================*/
 section .section-title h2:before {
-  background-color: #f07f81;
+  background-color: #009999;
 }
 
 /* 2.1 OWL Slider */
 .owl-nav button span {
-  color: #c98b8c;
+  color: #8bc0c9;
 }
 
 .owl-nav button span:hover {
-  color: #f07f81;
+  color: #009999;
 }
 
 .owl-dots .owl-dot span {
-  background-color: #c98b8c;
+  background-color: #8bc0c9;
 }
 
 .owl-dots .owl-dot.active span {
-  background-color: #f07f81;
+  background-color: #009999;
 }
 
 /*=================
@@ -241,113 +241,113 @@ section .section-title h2:before {
 ==================*/
 /* 3.1 General Header Style */
 header .site-logo a span {
-  color: #f07f81;
+  color: #009999;
 }
 
 /* 3.2 Horizontal Header Style */
 ul li a:after {
-  background-color: #f07f81;
+  background-color: #009999;
 }
 
 ul li a.active {
-  color: #f07f81;
+  color: #009999;
 }
 
 /*====================
     4. HOME SECTION
 =====================*/
 section.home h1:before {
-  background-color: #f07f81;
+  background-color: #009999;
 }
 
 h1 span {
-  color: #f07f81;
+  color: #009999;
 }
 
 /*====================
     5. ABOUT SECTION
 =====================*/
 section.about .about-info i {
-  color: #f07f81;
+  color: #009999;
 }
 
 /*=======================
     6. SERVICE SECTION
 ========================*/
 .service-single .service-icon {
-  color: #f07f81;
+  color: #009999;
 }
 
 /*=======================
     7. RESUME SECTION
 ========================*/
 .resume-list h4 {
-  color: #f07f81;
+  color: #009999;
 }
 
 .skill .progress-bar {
-  background-color: #f07f81;
+  background-color: #009999;
 }
 
 /*=======================
     8. BLOG SECTION
 ========================*/
 .news-item .news-content .news-title .blog-permalink:hover h3 {
-  color: #f07f81;
+  color: #009999;
 }
 
 .news-item .news-content .news-meta-single span:not(.meta-value) {
-  color: #f07f81;
+  color: #009999;
 }
 
 /*=======================
     9. CONTACT SECTION
 ========================*/
 .contact-icon {
-  color: #f07f81;
+  color: #009999;
 }
 
 /*==========================
     10. FACTS SECTION
 ===========================*/
 section.facts .fact-single .fact-icon, div.section.facts .fact-single .fact-icon {
-  color: #f07f81;
+  color: #009999;
 }
 
 /*==========================
     11. VIDEO SECTION
 ===========================*/
 .btn-video-play {
-  color: #f07f81;
+  color: #009999;
 }
 
 /*==========================
     12. TESTIMONIAL SECTION
 ===========================*/
 .testimonial-box .testimonial_icon {
-  color: #f07f81;
+  color: #009999;
 }
 
 .article-tags .article-tag {
-  color: #f07f81;
-  border: 1px solid #d36d6f;
+  color: #009999;
+  border: 1px solid #8bc0c9;
 }
 
 .article-tags .article-tag:hover {
   color: #fff;
-  background-color: #d36d6f;
+  background-color: #8bc0c9;
 }
 
 .article-meta .meta-list li span, .article-meta .meta-list li i {
-  color: #f07f81;
+  color: #009999;
 }
 
 .article-meta .meta-share li a:hover {
-  color: #f07f81;
+  color: #009999;
 }
 
 /*Switcher Button*/
 .switcher-button {
-  background-color: #f07f81;
+  background-color: #009999;
 }
 /*# sourceMappingURL=default.css.map */

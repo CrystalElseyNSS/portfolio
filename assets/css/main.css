@@ -978,12 +978,12 @@ section.facts .fact-single .fact-info, div.section.facts .fact-single .fact-info
 }
 
 #color-switcher .switcher-area .color1 {
-  background-color: #f07f81;
+  background-color: #009999;
 }
 
 #color-switcher .switcher-area .color1.active {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 127, 129, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(240, 127, 129, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem #009999;
+          box-shadow: 0 0 0 0.2rem #009999;
 }
 
 #color-switcher .switcher-area .color2 {
