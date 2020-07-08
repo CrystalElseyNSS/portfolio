@@ -236,7 +236,7 @@ $(window).on("load", function(){
 
     // OWL Carousel
 
-    $('#client_slider').owlCarousel({
+    $('#quote_slider1').owlCarousel({
         items: 1,
         loop: true,
         autoplay: true,
@@ -249,8 +249,43 @@ $(window).on("load", function(){
         dragEndSpeed: 500
     });
 
-    
+    $('#classmate_slider1').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        dots: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 1000,
+        navSpeed: 500,
+        dotsSpeed: 500,
+        dragEndSpeed: 500
+    });
 
-    
+    $('#quote_slider2').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        dots: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 1000,
+        navSpeed: 500,
+        dotsSpeed: 500,
+        dragEndSpeed: 500
+    });
+
+    $('#classmate_slider2').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        dots: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 1000,
+        navSpeed: 500,
+        dotsSpeed: 500,
+        dragEndSpeed: 500
+    });    
 
 });
