@@ -289,3 +289,5 @@ $(window).on("load", function(){
     });    
 
 });
+
+$(".header-ins .container .navbar-collapse").removeClass("justify-content-end")

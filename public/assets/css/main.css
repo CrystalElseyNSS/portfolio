@@ -978,12 +978,12 @@ section.facts .fact-single .fact-info, div.section.facts .fact-single .fact-info
 }
 
 #color-switcher .switcher-area .color1 {
-  background-color: #009999;
+  background-color: #0bceaf;
 }
 
 #color-switcher .switcher-area .color1.active {
-  -webkit-box-shadow: 0 0 0 0.2rem #009999;
-          box-shadow: 0 0 0 0.2rem #009999;
+  -webkit-box-shadow: 0 0 0 0.2rem #0bceaf;
+          box-shadow: 0 0 0 0.2rem #0bceaf;
 }
 
 #color-switcher .switcher-area .color2 {
@@ -1031,3 +1031,22 @@ section.facts .fact-single .fact-info, div.section.facts .fact-single .fact-info
           box-shadow: 0 0 0 0.2rem rgba(255, 33, 56, 0.5);
 }
 /*# sourceMappingURL=main.css.map */
+
+.site-logo { 
+  display: none;
+}
+
+.header-ins .container .navbar-collapse {
+  justify-content: space-evenly;
+  padding: 0 10%;
+}
+
+.tech-icon img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.tech-icon {
+  min-width: 70px !important;
+  width: 10%;
+}
